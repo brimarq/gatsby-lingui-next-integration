@@ -1,0 +1,37 @@
+{
+  "name": "gatsby-lingui-next-integration",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Integrating lingui@next with Gatsby",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "yarn develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
+    "lingui:extract": "lingui extract",
+    "lingui:compile": "lingui compile",
+    "lingui:build": "lingui extract && lingui compile"
+  },
+  "keywords": [],
+  "author": "Brian Marquis <rbmarquis.dev@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/brimarq/gatsby-lingui-next-integration"
+  },
+  "dependencies": {
+    "@lingui/react": "^3.0.0-13",
+    "gatsby": "^2.24.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "@lingui/cli": "^3.0.0-13",
+    "@lingui/macro": "^3.0.0-13",
+    "prettier": "^2.0.5"
+  }
+}
