@@ -1,0 +1,16 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2020-07-15 19:38-0500\n"
+"Mime-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: @lingui/cli\n"
+"Language: es\n"
+
+#: src/pages/index.js:7
+msgid "Home Page"
+msgstr "Inicio"
+
+#: src/pages/index.js:8
+msgid "This is the home page."
+msgstr "Esta es la página inicio."
